@@ -75,3 +75,11 @@ body, html {
     height: 70px;
     background-color: black;
 }
+
+.bottomTextField {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 70px;
+    margin-left: 660px;
+}
+

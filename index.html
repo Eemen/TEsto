@@ -39,8 +39,30 @@
      <div class="box"></div>
      <div class="box"></div>   
      </div>
-     </div>   
+     </div> 
+     <div class="bottomTextField">
+        <label for="userInput"></label>
+        <input type="text" id="userInput" placeholder="Champion">
+    </div>  
      </div>
     </div>
 </body>
+<script>
+    const onSearch = () => {
+        const input = document.querySelector("#search");
+        const filter = input.value.toUpperCase();
+
+        const list = document.querySelectorAll("#list li");
+
+        list.forEach((el) => {
+            const text = el.textContent.toUpperCase();
+
+            el.style.display = text.includes(filter) ? "" : "none";
+        });
+    };
+
+    <ul id="list">
+        <li>Aatrox</li>
+        </ul>
+</script>
 </html>
