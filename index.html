@@ -3,66 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adventskalender</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrap-box">
-     <div class="header"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"></div>
-     <div class="gragas-img-wrapper"><img src="img\Gragas.png" alt="Gragas" class="gragas-img"></div>   
+        <div class="header"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"></div>
+        <div class="gragas-img-wrapper"><img src="img\Gragas.png" alt="Gragas" class="gragas-img"></div>   
+        <div class="veigar-img-wrapper"><img src="img\Veigar.png" alt="Veigar" class="veigar-img"></div>   
      
-     <div class="footer"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"></div>
-     <div class="wrapper-wrapper-boxes">
-     <div class="wrapper-boxes"> 
-     <div class="box"><img src="img\Tür9.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür16.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür23.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür7.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür4.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür22.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür7.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür15.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür5.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür1.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür16.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür14.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür10.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür21.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür24.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür2.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür20.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür18.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür6.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür19.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür11.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür13.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür3.png" alt="Tür" class="Tür"></div>
-     <div class="box"><img src="img\Tür12.png" alt="Tür" class="Tür"></div>   
-     </div>
-     </div> 
-     <div class="bottomTextField">
-        <label for="userInput"></label>
-        <input type="text" id="userInput" placeholder="Champion">
-    </div>  
-     </div>
+        <div class="footer"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"><img src="img\bild.png" alt="Bild" class="Bild"></div>
+        
+        <div class="wrapper-wrapper-boxes">
+            <div class="wrapper-boxes"> 
+                <div class="box" onclick="onDoorClick(1)"><img src="img\Tür1.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(2)"><img src="img\Tür2.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(3)"><img src="img\Tür3.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(4)"><img src="img\Tür4.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(5)"><img src="img\Tür5.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(6)"><img src="img\Tür6.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(7)"><img src="img\Tür7.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(8)"><img src="img\Tür8.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(9)"><img src="img\Tür9.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(10)"><img src="img\Tür10.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(11)"><img src="img\Tür11.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(12)"><img src="img\Tür12.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(13)"><img src="img\Tür13.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(14)"><img src="img\Tür14.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(15)"><img src="img\Tür15.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(16)"><img src="img\Tür16.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(17)"><img src="img\Tür17.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(18)"><img src="img\Tür18.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(19)"><img src="img\Tür19.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(20)"><img src="img\Tür20.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(21)"><img src="img\Tür21.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(22)"><img src="img\Tür22.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(23)"><img src="img\Tür23.png" alt="Tür" class="Tür"></div>
+                <div class="box" onclick="onDoorClick(24)"><img src="img\Tür24.png" alt="Tür" class="Tür"></div>
+            </div>
+        </div>
+
+        <div class="bottomTextField">
+            <label for="userInput"></label>
+            <input type="text" id="userInput" placeholder="Champion">
+            <button onclick="checkAnswer()">Submit</button>
+        </div>
+
+        <script>
+            const quotes = [
+                "Quote 1",
+                "Quote 2",
+                "Quote 3",
+                "Quote 4",
+                "Quote 5",
+                "Quote 6",
+                "Quote 7",
+                "Quote 8",
+                "Quote 9",
+                "Quote 10",
+                "Quote 11",
+                "Quote 12",
+                "Quote 13",
+                "Quote 14",
+                "Quote 15",
+                "Quote 16",
+                "Quote 17",
+                "Quote 18",
+                "Quote 19",
+                "Quote 20",
+                "Quote 21",
+                "Quote 22",
+                "Quote 23",
+                "Quote 24"
+            ];
+
+            function onDoorClick(day) {
+                const currentDate = new Date();
+                const currentDay = currentDate.getDate();
+
+                if (day > currentDay) {
+                    alert("Es ist noch nicht Zeit dafür.");
+                } else if (day === 1) {
+                    alert(quotes[0]);
+                } else {
+                    alert("Irgendetwas für Tag " + day);
+                }
+            }
+
+            function checkAnswer() {
+                const userInput = document.getElementById("userInput").value.toLowerCase();
+                const correctAnswer = "gragas";
+
+                if (userInput === correctAnswer) {
+                    alert("Gut gemacht!");
+                } else {
+                    alert("Versuch es nochmal.");
+                }
+            }
+        </script>
     </div>
 </body>
-<script>
-    const onSearch = () => {
-        const input = document.querySelector("#search");
-        const filter = input.value.toUpperCase();
-
-        const list = document.querySelectorAll("#list li");
-
-        list.forEach((el) => {
-            const text = el.textContent.toUpperCase();
-
-            el.style.display = text.includes(filter) ? "" : "none";
-        });
-    };
-
-    <ul id="list">
-        <li>Aatrox</li>
-        </ul>
-</script>
 </html>

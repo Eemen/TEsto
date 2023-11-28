@@ -46,6 +46,14 @@ body, html {
     margin-left: -100px;
 }
 
+.veigar-img{
+    scale: 70%;
+    position: absolute;
+    bottom: 1px;
+    margin-bottom: 500px;
+    margin-left: 1110px;
+}
+
 .wrapper-wrapper-boxes{
     /*background-color: #99A5CB;*/
     background-color: none;
