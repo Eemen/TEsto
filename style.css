@@ -47,11 +47,11 @@ body, html {
 }
 
 .veigar-img{
-    scale: 70%;
+    scale: 50%;
     position: absolute;
     bottom: 1px;
-    margin-bottom: 500px;
-    margin-left: 1110px;
+    margin-bottom: 270px;
+    margin-left: 800px;
 }
 
 .wrapper-wrapper-boxes{
@@ -92,7 +92,21 @@ body, html {
 .bottomTextField {
     position: absolute;
     bottom: 0;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     margin-left: 660px;
 }
 
+#userInput{
+    background-color: #7482AB;
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+}
+
+#buttonclick{
+    background-color: #7482AB;
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+}
+ 
